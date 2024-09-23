@@ -1,4 +1,4 @@
-# Image Processing Package
+# My Image Processing Package
 
 ---
 
@@ -22,7 +22,7 @@ Image Processing Package is a Python library designed to simplify common image p
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Image Processing Package:
 
 ```bash
-pip install image-processing-package
+pip install my-image-processing
 ```
 
 ---
@@ -53,7 +53,7 @@ io.save_image('path/to/save/resized_image.jpg', resized_image)
  ### Transferring histogram between images
 
  ```python
- from image_processing.processing import combination
+from image_processing.processing import combination
 from image_processing.utils import io, plot
 
 # Read two images
